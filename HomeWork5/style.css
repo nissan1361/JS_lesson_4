@@ -1,0 +1,21 @@
+.cell {
+    width: 40px;
+    height: 40px;
+    margin: 1px;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 40px;
+}
+
+.chessrow {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.blackCell {
+    background-color: #000;
+}
+
+.whiteCell {
+    background-color: white;
+}
