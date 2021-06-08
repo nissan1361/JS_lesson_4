@@ -1,0 +1,22 @@
+.shop {
+    display: flex;
+}
+
+.good {
+    margin: 15px;
+}
+
+.basket {
+    display: block;
+    border: 1px solid black;
+    padding: 5px;
+    width: 40%;
+}
+
+.toggle {
+    float: right;
+}
+
+.bname {
+    display: inline-block;
+}
