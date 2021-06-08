@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h3>Товары: </h3>
+    <div class="shop">
+        <div class="good">
+            <p>Молоко - 80p</p>
+            <button id="milk_btn" onClick="reply_click(this.id)">Купить!</button>
+        </div>
+
+        <div class="good">
+            <p>Хлеб - 50p</p>
+            <button id="bread_btn" onClick="reply_click(this.id)">Купить!</button>
+        </div>
+
+        <div class="good">
+            <p>Мясо - 125p</p>
+            <button id="meat_btn" onClick="reply_click(this.id)">Купить!</button>
+        </div>
+
+        <div class="good">
+            <p>Пиво - 75p</p>
+            <button id="beer_btn" onClick="reply_click(this.id)">Купить!</button>
+        </div>
+
+        <div class="good">
+            <p>Яблоко - 42p</p>
+            <button id="apples_btn" onClick="reply_click(this.id)">Купить!</button>
+        </div>
+
+        <div class="good">
+            <p>Чай - 75p</p>
+            <button id="tea_btn" onClick="reply_click(this.id)">Купить!</button></div>
+
+    </div>
+
+    <div id="cart" class="basket">
+        <h3 class="bname">Ваша корзина: </h3>
+        <button id="b1" class="toggle" onClick="menu(this.id)">V</button>
+        <div id="hid1" class="content">
+            <p id="cart_output"></p>
+            <p id="cartArr"></p>
+
+            <button id="erace_btn" onClick="reply_click(this.id)">Очистить карзину</button>
+
+            <button id="next1" class="toggle" onClick="menu(this.id)">Далее</button>
+        </div>
+
+    </div>
+
+    <div id="delivery" class="basket">
+        <h3 class="bname">Заказ доставки: </h3>
+        <button id="b2" class="toggle" onClick="menu(this.id)">V</button>
+        <div id="hid2" class="content">
+            <textarea>Адрес</textarea>
+            <textarea>Дом</textarea>
+            <textarea>Индекс</textarea>
+            <button>Заказать</button>
+            <button id="next2" class="toggle" onClick="menu(this.id)">Далее</button>
+        </div>
+    </div>
+
+    <div id="comment" class="basket">
+        <h3 class="bname">Комментарий: </h3>
+        <button id="b3" class="toggle" onClick="menu(this.id)">V</button>
+        <div id="hid3" class="content">
+            <textarea>Введите Ваш отзыв...</textarea>
+            <button>Сохранить</button>
+            <button>Отправить</button>
+        </div>
+    </div>
+
+    <script src="homework7.js"></script>
+</body>
+
+</html>
